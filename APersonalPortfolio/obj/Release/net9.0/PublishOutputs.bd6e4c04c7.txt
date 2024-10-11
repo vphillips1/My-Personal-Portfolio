@@ -1,0 +1,7 @@
+C:\Users\verke\source\repos\PersonalPortfolio\publish\APersonalPortfolio.exe
+C:\Users\verke\source\repos\PersonalPortfolio\publish\appsettings.Development.json
+C:\Users\verke\source\repos\PersonalPortfolio\publish\appsettings.json
+C:\Users\verke\source\repos\PersonalPortfolio\publish\APersonalPortfolio.dll
+C:\Users\verke\source\repos\PersonalPortfolio\publish\APersonalPortfolio.deps.json
+C:\Users\verke\source\repos\PersonalPortfolio\publish\APersonalPortfolio.runtimeconfig.json
+C:\Users\verke\source\repos\PersonalPortfolio\publish\APersonalPortfolio.pdb
