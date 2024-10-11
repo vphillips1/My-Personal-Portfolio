@@ -1,0 +1,101 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>A Personal Portfolio</title>
+	
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+	<link href="css/styles.css" rel="stylesheet" />
+
+	<style>
+
+		.btn:hover {
+				background: #006d77;
+		}
+
+
+	</style>
+</head>
+<body class="d-flex flex-column h-100">
+	<main class="flex-shrink-0">
+		<!-- Header-->
+		<header class="py-5 cover-page">
+			<div class="container px-5 pb-5">
+				<div class="row gx-5 align-items-center">
+					<div class="col-xxl-5">
+						<!-- Header content-->
+						<div class="text-center text-xxl-start">
+
+							<div class="fs-3 fw-light text-muted">Journey Through My Work</div>
+							<h1 class="display-4 fw-bold mb-3 slide-left">
+								<span class="text-gradient d-inline">Hi,&nbsp;I'm&nbsp;Verkeia&nbsp;Foley</span>
+							</h1>
+							<div class="fs-1 fw-medium text-light mb-5"> Software&nbsp;Engineer</div>
+							<div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+								<a class="btn btn-primary btn-color btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder asp-controller="Home" asp-action="Resume">Resume</a>
+								<a class="btn btn- btn-primary btn-color btn-lg px-5 py-3 fs-6 fw-bolder asp-controller="Home" asp-action="Projects">Projects</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xxl-7">
+						<div class="d-flex justify-content-center mt-5 mt-xxl-0">
+							<div class="profile bg-gradient-primary-to-secondary">
+								<div class="outer-border">
+									<div class="inner-border">
+								<img class="profile-img" src="@Url.Content("~/assets/images/ProfilePic.jpg")" style="border-radius: 50%;" height="300" alt="profilepic" />
+									</div>
+							</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="bg-light py-5">
+			<!-- About-->
+			<div class="container px-5">
+				<div id="about">
+					<div class="row">
+						<div class="about-col-1">
+							<img src="./assets/images/aboutme-img.jpeg" />
+						</div>
+						<div class="about-col-2">
+							<h1 class="sub-title shadow-text text-gradient">About Me</h1>
+							<p>
+								My journey into the world of coding began in 2020 with a transformative workshop that ignited my passion for programming, leading me to make a bold career switch and dive headfirst into software development.
+								To solidify my skills, I enrolled in an intensive 6-month C# .NET bootcamp, where I gained a strong foundation in C# programming, proficiency in SQL database management, and expertise in leveraging the .NET Framework.
+								Following my education, I spent over two years in an enterprise setting, where I gained invaluable hands-on experience, expanded my knowledge across various platforms and languages, and developed a deep understanding of industry best practices.
+								As a Software Engineer, I am driven by a passion for creating reliable, scalable applications and a logical approach to problem-solving, particularly in user interface development.
+								I am self-motivated, team-oriented, and adaptable, with a commitment to continuous learning and personal growth.
+
+							</p>
+
+						</div>
+					</div>
+					<div class="d-flex justify-content-center fs-2 gap-4">
+						<a class="text-gradient shadow-text" href="https://linkedin.com/in/verkeia-foley"><i class="bi bi-linkedin"></i></a>
+						<a class="text-gradient shadow-text" href="https://github.com/vphillips1"><i class="bi bi-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	</main>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
